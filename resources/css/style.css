@@ -1,3 +1,89 @@
+/** GENERAL STYLES **/
+
 html {
-  
+  font-family: helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.site-container {
+  width: 960px;
+  margin-left: 12.5%;
+}
+
+/** FONT STYLES **/
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+/** HEADER STYLES **/
+
+header {
+  width: 100%;
+  height: 31rem;
+  background-image: url("/Users/olistuart/Documents/Projects/Tortoiseshell Optics/resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-nav {
+  display: flex;
+  align-items: center;
+  background-color: cadetblue;
+  position: absolute;
+  top: 1rem;
+}
+
+.logo {
+  display: flex;
+  width: 50%;
+  color: white;
+}
+
+.logo p {
+  padding-top: 0.125em;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+nav {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  display: inline-flex;
+}
+
+nav li {
+  padding: 1rem 2rem;
+}
+
+#banner {
+  position: absolute;
+  top: 15.5rem;
+  left: 30rem;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 1.2;
+
 }

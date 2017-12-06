@@ -146,12 +146,11 @@ nav li {
 
 footer {
   background-color: azure;
-}
-
-#footer {
   padding: 4rem 0 4rem 4rem;
   vertical-align: middle;
 }
+
+
 
 footer img {
   height: 1.5rem;
